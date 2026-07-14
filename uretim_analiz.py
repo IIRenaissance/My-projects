@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS uretim (
 conn.commit()
 print("✓ Veritabanı hazır!")
 
-# Eski verileri temizle (temiz başlangıç için)
+
 cursor.execute("DELETE FROM uretim")
 conn.commit()
 
